@@ -3,7 +3,7 @@ Official repository for **Attention in Referral Transformer** aka **ART** propos
 
 🎉 Our work has been accepted to **ECCV 2024**!
 
-📚 For download links and details of our **RefCOCO-Gaze** dataset, please visit our [dataset repository](https://github.com/cvlab-stonybrook/refcoco-gaze). 
+📚 For download links and details of our **RefCOCO-Gaze** dataset, please visit our dedicated [dataset repository](https://github.com/cvlab-stonybrook/refcoco-gaze). 
 
 📢 Stay tuned for the pre-print and code!
 
