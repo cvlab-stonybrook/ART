@@ -7,6 +7,8 @@ Official repository for **Attention in Referral Transformer** aka **ART** propos
 
 📜 Find the preprint on [arXiv](https://arxiv.org/pdf/2407.19605).
 
+📨 Contact **Sounak Mondal** at ```somondal@cs.stonybrook.edu``` for any queries.
+
 
 # Installation
 
