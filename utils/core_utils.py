@@ -181,7 +181,7 @@ def get_args_parser_train():
     parser.add_argument('--frozen_lm', default=False, action='store_true')
     parser.add_argument('--retraining', default=False, action='store_true')
     parser.add_argument('--pretrained_vgcore', default=False, action='store_true')
-    parser.add_argument('--vgcore_model_checkpoint', default='./checkpints/pretraining/vgcore_6E_128_256d_200.pkg', type=str)
+    parser.add_argument('--vgcore_model_checkpoint', default='./checkpoints/pretraining/vgcore_checkpoint.pkg', type=str)
     parser.add_argument('--last_checkpoint', default='./checkpoints/training/refgaze_6E_32_512d_100.pkg', type=str)
     parser.add_argument('--model_root', default='./checkpoints/training/', type=str)
     parser.add_argument('--num_workers', default=6, type=int)
@@ -267,7 +267,7 @@ def get_args_parser_test():
     parser.add_argument('--max_context_len', default=36, type=int)
     parser.add_argument('--num_cats', default=100, type=int)
     parser.add_argument('--frozen_lm', default=False, action='store_true')
-    parser.add_argument('--checkpoint', default='./checkpoints/refgaze_6E_6D_64_256d_100.pkg', type=str)
+    parser.add_argument('--checkpoint', default='./checkpoints/art_checkpoint.pkg', type=str)
     parser.add_argument('--num_workers', default=6, type=int)
 
     return parser
