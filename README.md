@@ -10,8 +10,7 @@ Official repository for **Attention in Referral Transformer** aka **ART** propos
 📨 Contact **Sounak Mondal** at ```somondal@cs.stonybrook.edu``` for any queries.
 
 For computer systems to effectively interact with humans using spoken language, they need to understand how the words being generated affect the users' moment-by-moment attention. Our study focuses on the incremental prediction of attention as a person is seeing an image and hearing a referring expression defining the object in the scene that should be fixated by gaze. To predict the gaze scanpaths in this incremental object referral task, we developed the Attention in Referral Transformer model or ART, which predicts the human fixations spurred by each word in a referring expression. ART uses a multimodal transformer encoder to jointly learn gaze behavior and its underlying grounding tasks, and an autoregressive transformer decoder to predict, for each word, a variable number of fixations based on fixation history. To train ART, we created RefCOCO-Gaze, a large-scale dataset of 19,738 human gaze scanpaths, corresponding to 2,094 unique image-expression pairs, from 220 participants performing our referral task. In our quantitative and qualitative analyses, ART not only outperforms existing methods in scanpath prediction, but also appears to capture several human attention patterns, such as waiting, scanning, and verification.
-
-The 
+ 
 # Installation
 
 ```bash
@@ -58,6 +57,7 @@ To run inference of ART on the test set of RefCOCO-Gaze, and evaluate it on the 
 
 ```CUDA_VISIBLE_DEVICES=<gpu-id(s)> python3 inference.py --checkpoint=<checkpoint_location>```
 
+Acknowledgement - A portion of our code is adapted from the [repository](https://github.com/djiajunustc/TransVG) for [TransVG](https://openaccess.thecvf.com/content/ICCV2021/papers/Deng_TransVG_End-to-End_Visual_Grounding_With_Transformers_ICCV_2021_paper.pdf) model. We would like to thank the authors Deng et al. for open-sourcing their code. 
 
 # Citation
 
