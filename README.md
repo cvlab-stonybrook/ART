@@ -63,7 +63,7 @@ Acknowledgement - A portion of our code is adapted from the [repository](https:/
 
 If you use either the ART model or RefCOCO-Gaze dataset, please cite as follows:
 ```
-@InProceedings{Mondal_2024_ECCV,
+@InProceedings{mondal2024look,
 author = {Mondal, Sounak and Ahn, Seoyoung and Yang, Zhibo and Balasubramanian, Niranjan and Samaras, Dimitris and Zelinsky, Gregory and Hoai, Minh},
 title = {Look Hear: Gaze Prediction for Speech-directed Human Attention},
 booktitle = {European Conference on Computer Vision (ECCV)},
