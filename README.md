@@ -30,6 +30,7 @@ Download the contents of this [Google Drive folder](https://drive.google.com/dri
     -- refcocogaze_train_tf_512X320_6.json        # RefCOCO-Gaze training set pre-processed to aid teacher-forcing
     -- refcocogaze_val_tf_512X320_6.json          # RefCOCO-Gaze validation set pre-processed to aid teacher-forcing
     -- refcocogaze_test_correct_512X320.json      # RefCOCO-Gaze test scanpaths
+    -- refTrainAll_512X320.pkl
     -- clusters_refcocogaze.npy
     -- catDict.pkl
     -- refcocogaze_test_synced.pkl
