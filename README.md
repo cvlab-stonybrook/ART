@@ -1,7 +1,7 @@
 # ART
 Official repository for **Attention in Referral Transformer** aka **ART** proposed in **"Look Hear: Gaze Prediction for Speech-directed Human Attention"** by Sounak Mondal, Seoyoung Ahn, Zhibo Yang, Niranjan Balasubramanian, Dimitris Samaras, Gregory Zelinsky, and Minh Hoai. 
 
-🎉 Our work has been published at **ECCV 2024**!
+🎉 Our work has been published at [**ECCV 2024**][https://eccv.ecva.net/Conferences/2024]!
 
 📚 For download links and details of our **RefCOCO-Gaze** dataset, please visit our dedicated [dataset repository](https://github.com/cvlab-stonybrook/refcoco-gaze). 
 
